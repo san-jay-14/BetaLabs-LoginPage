@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Ubuntu:wght@700&display=swap');
+
+#container {
+    display: flex;
+}
+
+#img{
+    width: 50vw;
+    height: 100vh;
+    object-fit: fill;
+    
+}
+
+#form{
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    overflow-y: auto;
+}
+
+#text1{
+    color: #525252;
+    font-family: Nunito Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#text2{
+    color: #525252;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+#text3{
+    color: var(--Gray-3, #828282);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#text4{
+    
+    color: #A1A1A1;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 420px;
+}
+
+.text5{
+    color:  #828282;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+#signin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    margin-bottom: 0px;
+}
+
+#belowdiv{
+    display: flex;
+    align-items: flex-start;
+    gap: 222px;
+    display: flex;
+    
+}
+
+#remember{
+    color: #A1A1A1;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#forgot{
+    color: #7F265B;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#loginbtn{
+    border-radius: 6px;
+    background: #7F265B;
+    display: flex;
+    width: 400px;
+    padding: 13px 10px 12px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+}
+
+#text6{
+    color: #FFF;
+font-family: Nunito Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+#footer{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 420px;
+}
+
+#text7{
+    color:  #828282;
+font-family: Nunito Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#text8{
+    color: #7F265B;
+font-family: Nunito Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+
+#input::placeholder{
+        color: "#E0E0E0";
+        font-family: "Nunito Sans";
+        font-size: "14px";
+        font-style: "normal";
+        font-weight: "400";
+        line-height: "normal";
+}
